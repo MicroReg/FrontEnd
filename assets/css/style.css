@@ -17,6 +17,8 @@ body {
     padding: 0px !important;
     margin: 0px !important;
     font-size:13px;
+    width: 100%;
+    overflow: hidden;
 }
 
 ul li {
@@ -242,9 +244,7 @@ ul.top-menu > li > .logout:visited{
 
 
 /* MAIN CONTENT CONFIGURATION */
-#main-content {
-    margin-left: 210px;
-}
+
 
 .header, .footer {
     min-height: 60px;
@@ -679,6 +679,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 .mtbox {
 	margin-top: 80px;
 	margin-bottom: 40px;
+  overflow: hidden !important;
 }
 
 .box1 {
