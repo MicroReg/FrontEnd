@@ -985,7 +985,7 @@ PANELS CONFIGURATIONS
 /*Panel Size*/
 
 .pn {
-	height: 250px;
+
 	box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -1017,6 +1017,10 @@ PANELS CONFIGURATIONS
 	margin-top: 5px;
 	font-weight: 700;
 	margin-left: 15px;
+  color:black;
+}
+.donut-chart h5{
+  color:black;
 }
 .donut-chart h2 {
 	font-weight: 900;
@@ -1078,16 +1082,18 @@ PANELS CONFIGURATIONS
 /*White Panel */
 .white-panel {
 	text-align: center;
-	background: #ffffff;
+	background: #ebae99;
 	color: #ccd1d9;
+  border:15px solid white;
+  height:120%;
 }
 
-.white-panel p {
+.white-panel p{
 	margin-top: 5px;
 	font-weight: 700;
 	margin-left: 15px;
 }
-.white-panel .white-header {
+.white-panel .white-header{
 	background: #f4f4f4;
 	padding: 3px;
 	margin-bottom: 15px;
@@ -1103,7 +1109,28 @@ PANELS CONFIGURATIONS
 	padding-right: 4px;
 	font-size: 14px;
 }
-
+#start{
+  color: #1a1a1a;
+	font-size: 12px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border: 1px solid #64c3c2 !important;
+	padding: 5px 15px;
+	margin-right: 15px;
+	background: white;
+	margin-top: 15px;
+}
+#stop{
+  color: #1a1a1a;
+  font-size: 12px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border: 1px solid #64c3c2 !important;
+  padding: 5px 15px;
+  margin-right: 15px;
+  background: white;
+  margin-top: 15px;
+}
 /*STOCK CARD Panel*/
 .card {
   background: white;
